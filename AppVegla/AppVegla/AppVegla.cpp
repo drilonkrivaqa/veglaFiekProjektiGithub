@@ -9,6 +9,14 @@ void showMenu() {
 }
 
 int main() {
-    showMenu();
+    int choice;
+    do {
+        showMenu();
+        cout << "Choice: ";
+        cin >> choice;
+    } while (choice != 0);
+
+    cout << "Bye!\n";
     return 0;
 }
+
