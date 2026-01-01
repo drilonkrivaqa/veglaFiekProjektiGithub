@@ -23,7 +23,14 @@ int add(int a, int b) {
     int c = a+b;
     return c;
 }
+
 int subtract(int a, int b) {
     return a - b;
+}
+
+void testPerson2() {
+    cout << "Person 2 test: ";
+    cout << add(2, 3) << " ";
+    cout << subtract(5, 2) << endl;
 }
 
