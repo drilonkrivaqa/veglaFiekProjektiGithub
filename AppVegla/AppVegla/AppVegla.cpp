@@ -40,3 +40,10 @@ int readA() {
     cin >> x;
     return x;
 }
+
+int readB() {
+    int x;
+    cout << "Enter B: ";
+    cin >> x;
+    return x;
+}
