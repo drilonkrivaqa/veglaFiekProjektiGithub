@@ -34,3 +34,16 @@ void testPerson2() {
     cout << subtract(5, 2) << endl;
 }
 
+int readA() {
+    int x;
+    cout << "Enter A: ";
+    cin >> x;
+    return x;
+}
+
+int readB() {
+    int x;
+    cout << "Enter B: ";
+    cin >> x;
+    return x;
+}
