@@ -47,4 +47,9 @@ int readB() {
     cin >> x;
     return x;
 }
-//
+
+void handleAdd() {
+    int a = readA();
+    int b = readB();
+    cout << "Result: " << add(a, b) << endl;
+}
