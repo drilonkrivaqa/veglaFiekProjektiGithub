@@ -53,3 +53,9 @@ void handleAdd() {
     int b = readB();
     cout << "Result: " << add(a, b) << endl;
 }
+
+void handleSubtract() {
+    int a = readA();
+    int b = readB();
+    cout << "Result: " << subtract(a, b) << endl;
+}
