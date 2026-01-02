@@ -16,6 +16,9 @@ int main() {
         cin >> choice;
     } while (choice != 0);
 
+    if (choice == 1) handleAdd();
+    if (choice == 2) handleSubtract();
+    
     cout << "Bye!\n";
     return 0;
 }
